@@ -1,5 +1,6 @@
-Create VENV
-Install Django and Django REST Framework
-MigrateDB
-Create Super User
-RunServer
+python -m venv env && source env/bin/activate (create virtual enviroment)
+Install Django (pip install Django)
+Install Django REST Framework (pip install djangorestframework)
+MigrateDB (python manage.py migrate)
+Create Super User (python manage.py createsuperuser)
+RunServer (python manage.py runserver)
